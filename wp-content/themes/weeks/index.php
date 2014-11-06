@@ -10,10 +10,7 @@
  *
  * @package weeks
  */
-
-
-
-// blasdawdafh	
+	
 
 get_header(); ?>
 
