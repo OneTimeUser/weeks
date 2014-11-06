@@ -450,6 +450,7 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding-right:200px;
 }
 
 .main-navigation ul ul {
