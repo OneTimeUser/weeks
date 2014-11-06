@@ -445,12 +445,13 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	
 }
 
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	padding-right:200px;
+
 }
 
 .main-navigation ul ul {
