@@ -642,7 +642,7 @@ a:active {
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
-#page{
+#page {
 
 	background-color: #eee;
 	width: 1024px;
@@ -650,14 +650,19 @@ a:active {
 
 }
 
-#content{
+#primary {
 
 	background-color: orange;
-	position:relative;
-	right:0;
+	float:left;
 	width: 800px;
-
 }
+
+#secondary {
+	background-color: yellow;
+	width: 224px;
+	float:right;
+}
+
 
 /*--------------------------------------------------------------
 10.1 Posts and pages
