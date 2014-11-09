@@ -62,16 +62,6 @@ define('NONCE_SALT',       '9f>:x@4Mrxziq2J~H <A{[RwY!4G/BS07=cF+C<h,-_1Kn.SaL?D
 $table_prefix  = 'wp_';
 
 /**
- * WordPress Localized Language, defaults to English.
- *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
- * language support.
- */
-define('WPLANG', 'ro_RO');
-
-/**
  * For developers: WordPress debugging mode.
  *
  * Change this to true to enable the display of notices during development.
