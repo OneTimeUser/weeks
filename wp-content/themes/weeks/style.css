@@ -84,8 +84,12 @@ html {
 }
 
 body {
+<<<<<<< Updated upstream
 	background: #fff; /* Fallback for when there is no custom background color defined. */
 
+=======
+	background: #ccc; /* Fallback for when there is no custom background color defined. */
+>>>>>>> Stashed changes
 }
 
 article,
@@ -105,6 +109,7 @@ ol,
 ul {
 	list-style: none;
 }
+
 
 table { /* tables still need 'cellspacing="0"' in the markup */
 	border-collapse: separate;
@@ -164,6 +169,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	border: 1px;
 }
 
 p {
@@ -438,6 +444,7 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+
 }
 
 .main-navigation ul {
@@ -455,7 +462,6 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-
 }
 
 .main-navigation ul ul {
@@ -515,6 +521,7 @@ a:active {
 
 	.main-navigation ul {
 		display: none;
+
 	}
 }
 
@@ -653,14 +660,14 @@ a:active {
 #primary {
 
 	background-color: orange;
-	float:left;
+	float: right;
 	width: 800px;
 }
 
 #secondary {
 	background-color: yellow;
 	width: 224px;
-	float:right;
+	float: left;
 }
 
 
@@ -728,7 +735,33 @@ a:active {
 #masthead{
 
 	background-color: red;
+	width: 800px;
+	float: right;
 }
+
+
+.site-title a {
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+}
+
+.page-item-10 {
+	border: 1px solid black;
+}
+
+.page-item-2 {
+	border: 1px solid black;
+	
+	
+	
+}
+
 
 /*--------------------------------------------------------------
 11.0 Infinite scroll

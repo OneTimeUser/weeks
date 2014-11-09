@@ -12,5 +12,5 @@
 
 <div id="secondary" class="submenu-area" role="complementary">
 <!-- 	<?php dynamic_sidebar( 'sidebar-1' ); ?>-->
-	<h3>Category Section visible only while WORK menu is active, otherwise hidden</h3>
+	<h3>Whats up submenu!</h3>
 </div><!-- #secondary -->

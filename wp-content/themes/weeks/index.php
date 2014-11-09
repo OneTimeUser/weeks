@@ -12,6 +12,7 @@
  */
 	
 
+// Have a nice day!!	
 get_header(); ?>
 <?php get_sidebar(); ?>
 
