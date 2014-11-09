@@ -1,9 +1,9 @@
 /*
 Theme Name: weeks
-Theme URI: http://www.joshuaweeks.com
-Author: Mihai Regos and Jason Aston
-Author URI: none
-Description: Artist's Portfolio
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
 Version: 1.0-wpcom
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,8 +11,9 @@ Text Domain: weeks
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 
- weeks is built on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+ weeks is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Resetting and rebuilding styles have been helped along thanks to the fine work of
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
@@ -450,7 +451,6 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	padding-right:200px;
 }
 
 .main-navigation ul ul {
