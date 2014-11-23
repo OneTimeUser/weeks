@@ -15,9 +15,29 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,700italic,300italic,700,300' rel='stylesheet' type='text/css'>
-
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php wp_head(); ?>
+<script type="text/javascript">
+	$(document).ready(function()
+		{
+		    $("a").hover(function(e)
+		    {
+		        var randomClass = getRandomClass();
+		        $(e.target).attr("class", randomClass);
+		    });
+		});
+
+	function getRandomClass()
+	{
+	    //Store available css classes
+	    var classes = new Array("green", "purple", "teal", "violet", "pink", "red", "blue", "gray", "orange", "yellow", "brown");
+
+	    //Get a random number from 0 to 11
+	    var randomNumber = Math.floor(Math.random()*12);
+
+	    return classes[randomNumber];
+	}
+</script>
 </head>
 
 <body <?php body_class(); ?>>

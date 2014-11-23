@@ -417,22 +417,39 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: black;
+	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
 }
 
-a:hover,
+/*a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
-}
+	randomly generated color- not yet implemented
+}*/
+
+a.green:hover { color: #1ace84; }
+a.purple:hover { color: #a262c0; }
+a.teal:hover { color: #4ac0aa; }
+a.violet:hover { color: #8c78ba; }
+a.pink:hover { color: #d529cd; }
+a.red:hover {color:red;}
+a.blue:hover {color:blue;}
+a.gray:hover {color:gray;}
+a.orange:hover {color:orange;}
+a.yellow:hover {color:yellow;}
+a.brown:hover {color:brown;}
 
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
+h1 .site-title {
+	font-size: 1.5em; 
+	font-weight: 700;
+}
+
 .main-navigation {
 	clear: both;
 	display: block;
@@ -653,14 +670,14 @@ a:active {
 #primary {
 
 	background-color: orange;
-	float:left;
+	float:right;
 	width: 800px;
 }
 
 #secondary {
 	background-color: yellow;
 	width: 224px;
-	float:right;
+	float:left;
 }
 
 
