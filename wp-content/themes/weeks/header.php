@@ -18,7 +18,7 @@
  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php wp_head(); ?>
 <script type="text/javascript">
-	$(document).ready(function()
+	/*$(document).ready(function()
 		{
 		    $("a").hover(function(e)
 		    {
@@ -36,7 +36,7 @@
 	    var randomNumber = Math.floor(Math.random()*12);
 
 	    return classes[randomNumber];
-	}
+	}*/
 </script>
 </head>
 
