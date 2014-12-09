@@ -445,16 +445,27 @@ a.brown:hover {color:brown;}
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
+.site-branding{
+	float:left;
+	width: 224px;
+}
+
+.site-branding h1{
+	font-size: 1.7em;
+}
+
+
 h1 .site-title {
 	font-size: 1.5em; 
 	font-weight: 700;
+	float:right;
 }
 
 .main-navigation {
-	clear: both;
+	/*clear: both;*/
 	display: block;
 	float: left;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .main-navigation ul {
@@ -466,7 +477,8 @@ h1 .site-title {
 .main-navigation li {
 	float: left;
 	position: relative;
-	
+	padding-right:20px;
+	font-size: 1.7em;
 }
 
 .main-navigation a {
@@ -517,6 +529,10 @@ h1 .site-title {
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a {
+}
+
+.sub-menu{
+	font-size: 1em;
 }
 
 /* Small menu */
@@ -661,7 +677,7 @@ h1 .site-title {
 --------------------------------------------------------------*/
 #page {
 
-	background-color: #eee;
+	background-color: ;
 	width: 1024px;
 	margin: 0 auto;
 
@@ -669,15 +685,16 @@ h1 .site-title {
 
 #primary {
 
-	background-color: orange;
+	background-color: ;
 	float:right;
 	width: 800px;
 }
 
 #secondary {
-	background-color: yellow;
+	background-color: ;
 	width: 224px;
 	float:left;
+	display:block;
 }
 
 
@@ -736,15 +753,15 @@ h1 .site-title {
 10.4 Footer
 --------------------------------------------------------------*/
 #colophon{
-
-	background-color: blue;
+	font-size: .7em;
+	background-color: ;
 }
 /*--------------------------------------------------------------
 10.5 Header
 --------------------------------------------------------------*/
 #masthead{
 
-	background-color: red;
+	background-color: ;
 }
 
 /*--------------------------------------------------------------
