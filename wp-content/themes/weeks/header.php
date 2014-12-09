@@ -26,9 +26,9 @@
 		        $(e.target).attr("class", randomClass);
 		    });
 
-		    if ($( "#menu-item-19" ).hasClass( "current-menu-item" )) {
-		    	$("#secondary").show();
-		    } else {$("#secondary").hide();};
+		    if ($( "#menu-item-20" ).hasClass( "current-menu-item" ) || $( "#menu-item-21" ).hasClass( "current-menu-item" ) || $( "#menu-item-22" ).hasClass( "current-menu-item" )) {
+		    	$("#secondary").hide();
+		    } else {$("#secondary").show();};
 
 		});
 
