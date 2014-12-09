@@ -18,13 +18,18 @@
  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php wp_head(); ?>
 <script type="text/javascript">
-	/*$(document).ready(function()
+	$(document).ready(function()
 		{
 		    $("a").hover(function(e)
 		    {
 		        var randomClass = getRandomClass();
 		        $(e.target).attr("class", randomClass);
 		    });
+
+		    if ($( "#menu-item-19" ).hasClass( "current-menu-item" )) {
+		    	$("#secondary").show();
+		    } else {$("#secondary").hide();};
+
 		});
 
 	function getRandomClass()
@@ -36,7 +41,7 @@
 	    var randomNumber = Math.floor(Math.random()*12);
 
 	    return classes[randomNumber];
-	}*/
+	}
 </script>
 </head>
 
