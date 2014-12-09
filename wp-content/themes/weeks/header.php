@@ -26,7 +26,7 @@
 		        $(e.target).attr("class", randomClass);
 		    });
 
-		    if ($( "#menu-item-20" ).hasClass( "current-menu-item" ) || $( "#menu-item-21" ).hasClass( "current-menu-item" ) || $( "#menu-item-22" ).hasClass( "current-menu-item" )) {
+		    if ($( "#menu-item-20" ).hasClass( "current-menu-item" ) || $( "#menu-item-21" ).hasClass( "current-menu-item" ) || $( "#menu-item-72" ).hasClass( "current-menu-item" )) {
 		    	$("#secondary").hide();
 		    } else {$("#secondary").show();};
 
@@ -57,6 +57,7 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle"><?php _e( 'Primary Menu', 'weeks' ); ?></button>
+
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

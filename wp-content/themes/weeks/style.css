@@ -448,6 +448,7 @@ a.brown:hover {color:brown;}
 .site-branding{
 	float:left;
 	width: 224px;
+	padding-left:10px;
 }
 
 .site-branding h1{
@@ -459,6 +460,15 @@ h1 .site-title {
 	font-size: 1.5em; 
 	font-weight: 700;
 	float:right;
+	
+}
+
+
+.site-info {
+	position: relative;
+	bottom:10px;
+	left: 224px;
+	width:300px;
 }
 
 .main-navigation {
@@ -539,7 +549,7 @@ h1 .site-title {
 .menu-toggle {
 	display: none;
 }
-
+/*
 @media screen and (max-width: 600px) {
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {
@@ -549,7 +559,7 @@ h1 .site-title {
 	.main-navigation ul {
 		display: none;
 	}
-}
+}*/
 
 .site-main .comment-navigation,
 .site-main .paging-navigation,
@@ -685,7 +695,6 @@ h1 .site-title {
 
 #primary {
 
-	background-color: ;
 	float:right;
 	width: 800px;
 }
@@ -695,6 +704,8 @@ h1 .site-title {
 	width: 224px;
 	float:left;
 	display:block;
+	padding-left:10px;
+	padding-top: 1.5em;
 }
 
 
@@ -728,6 +739,10 @@ h1 .site-title {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.page-title {
+	display: none;
 }
 
 /*--------------------------------------------------------------
@@ -866,4 +881,126 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+/*--------------------------------------------------------------
+12.3 Home thumbs
+--------------------------------------------------------------*/
+.home .site-main article {
+	width: 170px;
+	float:left;
+}
+
+/*--------------------------------------------------------------
+13.0 Media Queries
+--------------------------------------------------------------*/
+
+@media only screen and (max-width : 900px) {
+#page{
+	width: 824px;
+}
+#primary {
+
+	float:right;
+	width: 600px;
+}
+
+}
+
+@media only screen and (max-device-width : 900px) and (orientation : portrait) {
+#page{
+	width: 824px;
+}
+#primary {
+
+	width: 600px;
+}
+
+}
+
+@media only screen and (max-width : 768px) {
+#page{
+	width: 624px;
+}
+#primary {
+
+	width: 400px;
+}
+
+}
+
+@media only screen and (max-width : 600px) {
+#page{
+	width:480px;
+
+}	
+#primary {
+
+	float:left;
+	width: 480px;
+	margin-top:150px;
+
+}
+#secondary{
+	width: 100px;
+	position:fixed;
+	background-color: white;
+	padding-right:5px;
+	top: 36px;
+}
+.main-navigation {
+
+	display: block;
+	float: right;
+	width: 150px;
+	background-color: white;
+	position:fixed;
+	right: 0px;
+	padding-left: 5px;
+}
+.site-header{
+	width:480px;
+	position:fixed;
+}
+.site-title{
+	background-color: white;
+}
+.home .site-main article {
+	width: 50%;
+	
+}
+.site-info{
+	left:0;
+	margin: auto;
+}
+
+}
+
+@media only screen and (max-width : 360px) {
+
+#page{
+	width:340px;
+
+}	
+#primary {
+
+	
+	margin: 150px 10px 10px 0px;
+	width:340px;
+
+}
+.main-navigation {
+
+
+	width: 120px;
+	
+}
+
+.site-header{
+	width:360px;
+}
+
+
+}
 }

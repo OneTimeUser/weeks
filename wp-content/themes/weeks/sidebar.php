@@ -25,7 +25,7 @@
 		'feed'               => '',
 		'feed_type'          => '',
 		'feed_image'         => '',
-		'exclude'            => '',
+		'exclude'            => '8',
 		'exclude_tree'       => '',
 		'include'            => '',
 		'hierarchical'       => 1,
