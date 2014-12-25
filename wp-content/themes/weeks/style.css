@@ -583,6 +583,10 @@ h1 .site-title {
 	width: 50%;
 }
 
+div#comments.comments-area{
+	display:none;
+}
+
 /*--------------------------------------------------------------
 6.0 Accessibility
 --------------------------------------------------------------*/
@@ -977,30 +981,59 @@ object {
 
 }
 
-@media only screen and (max-width : 360px) {
+@media only screen and (max-width : 320px) {
 
 #page{
-	width:340px;
+	width:310px;
 
 }	
 #primary {
 
 	
-	margin: 150px 10px 10px 0px;
-	width:340px;
+	margin: 150px 0px 10px 0px;
+	width:310px;
 
 }
+
+#secondary{
+
+	font-size: .75em;
+	top:56px;
+	padding-left:14px;
+	padding-top: .5em;
+
+}
+#secondary a{
+	padding-bottom: 5px;
+	line-height:2em;
+
+}
+
 .main-navigation {
+	width: 100%;
+	display:table;
+	font-size: .5em;
+	left: 0px;
 
 
-	width: 120px;
-	
+}
+
+.main-navigation li{
+	display: table-cell;
+	width:25%;
+	text-align: center;
 }
 
 .site-header{
-	width:360px;
+	width:320px;
 }
 
+.site-branding{
+	float: none;
+	width:auto;
+	padding-left: 0;
+	text-align:center;
+}
 
 }
 }
